@@ -43,7 +43,7 @@ A story normally represents the view of a person, e.g. "I as product owner for p
 ```
 ## GOAL:
 
-Clearly describe what needs to be archieved.
+Clearly describe what needs to be achieved.
 
 ## DESCRIPTION
 

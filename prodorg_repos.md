@@ -24,9 +24,9 @@ Below each of the prodorg repositories is discussed.
 - Milestones
   - Are releases (no dates) for a product, used to group work for coding, testing, ...
 - Types of issues in the ``home`` repo:
-  - Only issues of type Question
-    - Used for questions that are relevant to the whole product organization
-    - All other questions should be asked in the repository the question relates too 
+  - Only issues of type Question (type_question) and Feature Request (type_feature)
+    - Used for questions and feature requests that are relevant to the whole product organization
+    - All other questions and feature requests should be asked in the repository the question relates too 
 - This is the ideal repo to define your roadmap covering multiple product and component repos in the prodorg
 
 DO NOT USE THIS REPO FOR:

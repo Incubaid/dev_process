@@ -51,7 +51,7 @@ Describe what story is about.
 
 ## LINKS:
 
-- Tasks: link to a Kanban board, using waffle.io
+- Tasks: link to a Kanban board, using waffle.io, see [example here](https://waffle.io/gig-projects/org_development?search=js8beta:&label=type_task)
 - Specs: link to the Markdown page holding the specifications for the story
 - Repositories involved:
  - list of links to all involved repositories

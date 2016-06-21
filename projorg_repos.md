@@ -1,34 +1,51 @@
-## Project Organizations (projorg) Repositories
+## Project Organizations Repositories
 
-In a **project** organization (prodorg) following repositories can exist:
+In a **project** organization ("projorg") following repositories can exist:
 
+- **home** repository
 - **Organization** repositories
 - **Project** repositories
 - **Cockpit** repositories
 
-Below each of the "projorg" repositories is discussed.
+Below each of the projorg repositories is discussed.
+
+
+### Home repository
+
+- Optional
+- Only one per projorg
+- Always named ```home```
+- Starting point for people to find their way in all other repos in the projorg
+- Types of issues in home repos:
+  - Only issues of type Question
+    - Used for questions that are relevant to the whole product organization
+    - All other questions should be asked in the repository the question relates too 
+  - Question for questions not related to one specific other repoistory
+- Example:
+  - https://github.com/gig-projects/home
+
 
 ### Organization repositories
 
 - Always named as ```org_$name```
-- Examples:
-  - org_marketing (https://github.com/gig-projects/org_marketing)
-  - org_development (https://github.com/gig-projects/org_development)
-- Suggested standard organization repo's:
+- Suggested standard organization repos:
     - org_development (engineering)
     - org_support (all support requests (tickets) which are not in project repo yet)
-    - org_internalit (internal IT related & organization of company)
+    - org_internalit (internal IT & organization of company)
     - org_product (product management)
     - org_marketing
     - org_finance
     - org_legal
     - org_hr 
-    - org_quality (all QA related issues and automation code, performance testing, portal testing and automated tests)
+    - org_quality (all QA related issues, automation code, performance testing, portal testing and automated tests)
 - Milestones
   - Defines a deadline (date) for the project, there can be multiple, but tasks or stories can only belong to one
   - Freely chosen per project
-- Types of issues in organization repo's:
-  - Issues of type Story, Lead, Ticket, Monitoring, Question or Task
+- Types of issues in organization repos:
+  - Story, Lead, Ticket, Monitoring, Question or Task
+- Examples:
+  - org_marketing (https://github.com/gig-projects/org_marketing)
+  - org_development (https://github.com/gig-projects/org_development)
 
 
 ### Project repositories
@@ -40,8 +57,8 @@ Below each of the "projorg" repositories is discussed.
 - Milestones
   - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
   - freely chosen per project
-- Types of issues in project repo's:
-  - Issues of type Stories, Leads, Ticket, Monitoring, Question or Task
+- Types of issues in project repos:
+  - Story, Lead, Ticket, Monitoring, Question or Task
 
 
 ### Cockpit repositories
@@ -57,11 +74,11 @@ Below each of the "projorg" repositories is discussed.
     - Rogerthat robot
     - Portal
 - Used to manage an environment on our G8 grid
-- AYS repo's are inside
+- AYS repos are inside
     - there can be more than 1 ays repo hosted inside a cockpit repo 
         - hosts the ays recipes and ays instances which make up the env to be managed
         - is a dir which has an empty file .ays inside 
 - Milestones
   - Defines a deadline for the environment, freely to be chosen
 - Types of issues can be of type
-  - Issues of type Story, Task, Bug, Feature, Question, Monitor or Test
+  - Story, Task, Bug, Feature, Question, Monitor or Test

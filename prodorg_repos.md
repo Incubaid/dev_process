@@ -1,4 +1,4 @@
-##  Product Organizations Repositories
+##  Product Organization Repositories
 
 In a **product** organization ("prodorg") following repositories can exist:
 

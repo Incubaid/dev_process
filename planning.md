@@ -54,11 +54,11 @@ In what follows we discuss the steps for planning related to product development
   - Create terminology document (```$homerepo/terminology.md```)
     - Define all relevant terms related to your products 
   - Create components document (```$homerepo/components.md```)
-    - Define the components which make up the product
-    - What do these components do
-    - Links to relevant code repositories
+    - Define the components which make up the products
+    - Describe what all these components do
+    - Include links to the associated code repositories
   - Create roadmap
-    - See [Roadmap](Roadmap.md) section 
+    - See the [Roadmap](roadmap.md) section 
 
 - In org_development or org_research of the "projorg" organization
   - Define roles

@@ -3,8 +3,8 @@
 In a **project** organization ("projorg") following repositories can exist:
 
 - **home** repository
-- **Organization** repositories
 - **Project** repositories
+- **Organization** repositories
 - **Environment** repositories
 - **Cockpit** repositories
 
@@ -36,6 +36,19 @@ Below each of the "projorg" repositories is discussed.
   - https://github.com/gig-projects/home
 
 
+### Project repositories
+
+- Always named as ```proj_$customer``` or ```proj_$customer_$projname```
+  - Projects relate to customers
+  - We use this to organize our work related to 1 customer, only useful if customer project is large enough
+  - Do not create specific ```proj_$customer_$projname``` unless if subproject is large enough
+- Milestones
+  - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
+  - freely chosen per project
+- Types of issues in project repos:
+  - Story, Lead, Ticket, Monitoring, Question or Task
+  
+
 ### Organization repositories
 
 - Always named as ```org_$name```
@@ -57,19 +70,6 @@ Below each of the "projorg" repositories is discussed.
 - Examples:
   - org_marketing (https://github.com/gig-projects/org_marketing)
   - org_development (https://github.com/gig-projects/org_development)
-
-
-### Project repositories
-
-- Always named as ```proj_$customer``` or ```proj_$customer_$projname```
-  - Projects relate to customers
-  - We use this to organize our work related to 1 customer, only useful if customer project is large enough
-  - Do not create specific ```proj_$customer_$projname``` unless if subproject is large enough
-- Milestones
-  - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
-  - freely chosen per project
-- Types of issues in project repos:
-  - Story, Lead, Ticket, Monitoring, Question or Task
 
 
 ### Environment repositories

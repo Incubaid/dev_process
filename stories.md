@@ -66,9 +66,8 @@ Describe what story is about.
 
 ##ESTIMATION: 
 
-- ESTIMATION: [```number of hours```(h)|```number of days```(d)] optional inidication of number of agreegated mandays/hours needed to realize the goal and only set by the story card owner
-- ETA: specific date inidicating when goal will be achieved, this estimation needs to be reviewed and updated every day while work is in progress
-```
+- ESTIMATION: [```number of hours```(h)|```number of days```(d)] optional indication of number of aggregated  /hours needed to realize the goal and only set by the story card owner
+- ETA: specific date indicating when goal will be achieved, this estimation needs to be reviewed and updated every day while work is in progress```
 
 Example: [see here](https://github.com/Incubaid/dev_process/issues/21)
 

@@ -5,7 +5,7 @@ In a **product** organization ("prodorg") following repositories can exist:
 - **home** repository
 - Source **Code** repositories
 - **Documentation** (GitBook) repositories
-- **AtYourService (AYS) templates** repositories
+- **AYS templates** repositories
 - **Websites** (www) repositories
 
 Below each of the prodorg repositories is discussed.
@@ -13,8 +13,8 @@ Below each of the prodorg repositories is discussed.
 
 ### Home repository
 
-- Only one per prodorg
-- Always named ```home```
+- Only one per "prodorg"
+- Always named `home`
 - Is the main repo of a prodorg
 - It holds 
   - Documentation common to the repos in the prodorg
@@ -22,7 +22,8 @@ Below each of the prodorg repositories is discussed.
   - Starting point for people to find their way in all other repos in the prodorg
   - Holds specifications and product requirements document (PRD) information common to the repos in the prodorg
 - Milestones
-  - Are releases (no dates) for a product, used to group work for coding, testing, ...
+  - Might be used to tag issues
+  - Are non-time based release numbers or names (no due date) for a product, used to group work for coding, testing, ...
 - Types of issues in the ``home`` repo:
   - Only issues of type Question (type_question) and Feature Request (type_feature)
     - Used for questions and feature requests that are relevant to the whole product organization
@@ -76,7 +77,7 @@ DO NOT USE THIS REPO FOR:
     - Issues of type Bug, Feature and Question
 
 
-### AYS templates (AtYourService)
+### AYS templates repositories
 
 - Always named as ```ays_$name```
   - ```ays_$customer_$envname``` e.g. ays_gig_gentTest1

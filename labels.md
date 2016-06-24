@@ -10,9 +10,9 @@
 | story |  | home, org, project | 
 | task |  |  home, org, project |
 | ticket | type | org, project |
-| bug | issue reported by anyone | code, ays, doc, www, cockpit |
+| bug | issue reported by anyone | code, ays, doc, www, quality |
 | feature | improvement asked for by anyone | code, project, ays, doc, www, cockpit, org |
-| question | anyone wants to ask something | home, code, project, ays, doc, www, cockpit, org | 
+| question | anyone wants to ask something | home, code, project, ays, doc, www, cockpit | 
 | monitor | monitoring system found an issue | project, cockpit, www |
 | lead | lead for sales, can convert in business | project, org |
 | test | a test task | org, cockpit |

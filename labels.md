@@ -10,8 +10,8 @@
 | story |  | home, org, project | 
 | task |  |  home, org, project |
 | ticket | type | org, project |
-| bug | issue reported by anyone | code, ays, doc, www, cockpit |
-| feature | improvement asked for by anyone | code, project, ays, doc, www, cockpit, org |
+| bug | issue reported by anyone | code, ays, doc, www, quality |
+| feature | improvement asked for by anyone | code, project, ays, doc, www, cockpit, org, quality |
 | question | anyone wants to ask something | home, code, project, ays, doc, www, cockpit, org | 
 | monitor | monitoring system found an issue | project, cockpit, www |
 | lead | lead for sales, can convert in business | project, org |
@@ -54,7 +54,7 @@
 | new | new or issue in backlog (is no label, is the default)| all |
 | inprogress | people are working on it | all |
 | question | needs input | all |
-| verification | testing, verification with customer | all |
+| verification | testing, verification with customer | all, except in quality |
 | closed | nothing to do, 100% done | all |
 
 

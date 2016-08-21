@@ -1,23 +1,34 @@
 ## Different Types of Repositories
 
-### Repositories inside Product organizations (prodorg)
+Remember that we define two types of organizations:
 
-In a product organization (prodorg) following repositories can exist:
+- Product organizations ("prodorg")
+- Project organizations ("projorg")
 
-- The **home** repository
-- Source **Code** repositories
-- **Documntation** (GitBook) repositories
-- **AtYourService (AYS) templates** repositories
+Each of the organization types come with their own typical repositories, as discussed below.
+
+
+### Repositories in product organizations
+
+In a product organization ("prodorg") following repositories can exist:
+
+- **home** repository
+- **Code** repositories
+- **AYS templates** repositories
+- **Documentation** (GitBook) repositories
 - **Websites** (www) repositories
 
-Details in the section about [product organization repo's](prodorg_repos.md)
+Details in the section about [product organization repositories](prodorg_repos.md)
 
-### Repo's inside Project organizations (projorg)
 
-In a project organization (prodorg) following repositories can exist:
+### Repositories in project organizations
 
-- **Organization** repositories
+In a project organization ("projorg") following repositories can exist:
+
+- **home** repository
 - **Project** repositories
+- **Organization** repositories
+- **Environment** repositories
 - **Cockpit** repositories
 
-Details in the section about [project organization repo's](projorg_repos.md)
+Details in the section about [project organization repositories](projorg_repos.md)

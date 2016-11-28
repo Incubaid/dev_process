@@ -1,0 +1,52 @@
+
+## feature requests are done in approprate product repo
+
+- e.g. in jumpscale8 all FR to do with this product
+- FR are linked to a release which is milestone in github terms e.g. 8.1.0 or linked to roadmap if far away
+- FR have links to dir or pages which have the specifications
+
+## specs
+
+- specs should always be put in repo where code is developed
+- specs can be part of code, suggest to use as much as possible code layouts e.g. the class with methods & todo's & specs are part of that method
+- when developing let the specs in, DO NOT remove them, this is good for further checks
+
+## when specific code reviews required
+
+- if specific code review is required can put a todo just for that purpose
+
+## metadata in specs
+
+### use priorities
+
+```
+#TODO *1
+```
+
+- we support *1 *2 & *3
+- *1 is NOW
+- *2 is soon, < 1-4 weeks (current sprint)
+- *3 is planned in next iteration
+
+### use links to FR in specs
+
+```
+(#577)
+```
+
+### use time in specs
+
+- Time format is optional
+- Can be in h or days e.g. 4h or 4d 
+
+```
+[4d]
+```
+
+### complete example:
+
+```
+#TODO *1 do something something [1h] (#577)
+```
+- this is some task of 1h, for FR 577 in this repo (always needs to be in this repo) and this needs to be done ASAP
+

@@ -34,7 +34,7 @@
 - link to dir or file in remote repo but in same account
 
 ```
-- [specs](../../Incubaid/dev_process/blob/master/specs.md)
+- [specs](../../dev_process/blob/master/specs.md)
 ```
 
 - what if other branch

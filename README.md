@@ -1,9 +1,8 @@
 # Incubaid Agile Development Process
 
-Incubaid is a Belgium incubator trying to deliver exciting infrastructure products in the market.
-We work with a group of startups to deliver the most unique products (see www.incubaid.com)
+[Incubaid](http://www.incubaid.com) is a Belgian startup incubator with a proven track record of bringing innovative and exciting cloud infrastructure products to market.
 
-The goal of this ebook is to describe a set of conventions how a development process can work based on agile methodologies. 
+The goal of this ebook is to describe a set of conventions on how a development process can work based on agile methodologies. 
 
 These ideas are opinionated but do result out of years trying to create good products and still maintain flexibility.
 
@@ -15,14 +14,14 @@ Please use the issue tracker to ask questions, post feedback, ask for improvemen
 
 * https://github.com/Incubaid/dev_process/issues
 
-## agile
 
-- we believe in agile development processes like Scrum & Kanban
-- we believe the best process use ideas from both
+## Agile
 
-## book
-
-- [online version](https://gig.gitbooks.io/agile/content/) (html)
-- [pdf version](https://www.gitbook.com/download/pdf/book/gig/agile)
+- We are strong advocates of [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) processes like [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development) and [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)
+- We believe the best process uses ideas from both
 
 
+## Book
+
+- [Online version](https://gig.gitbooks.io/agile/content/) (html)
+- [PDF version](https://www.gitbook.com/download/pdf/book/gig/agile)

@@ -1,5 +1,5 @@
 
-## kanban as a nice add-on to Scrum
+## Kanban as a Nice Add-on to Scrum
 
 Kanban primarily follows four core principles (info from [link](https://www.scrumalliance.org/community/articles/2014/july/scrum-vs-kanban))
 
@@ -15,7 +15,7 @@ Kanban primarily follows four core principles (info from [link](https://www.scru
 - Continuously improve
 	- Once the Kanban system is in place, it becomes the cornerstone for a culture of continuous improvement. Teams measure their effectiveness by tracking flow, quality, throughput, lead times, and more. Experiments and analysis can change the system to improve the team's effectiveness.
 
-### we need features from both
+### We need features from both
 
 
 | Advantages of Scrum        | Advantages of Kanban           |
@@ -28,11 +28,11 @@ Kanban primarily follows four core principles (info from [link](https://www.scru
 | Allows client to change priorities and requirements quickly | Reduction of wasted work/wasted time |
 
 
-### why can Kanban help as addon
+### Why can Kanban help as add-on
 
-Kanban: A Good Fit for Teams that View Work as Firefighting
+Kanban: A Good Fit for Teams that View Work as Firefighting.
 
-Toyota production plants and Scrum teams exist to build product. The literature speaks of successful application of kanban in the service industry, analogous to firefighting or hospital emergency rooms. It's tricky to schedule your next fire unless you live in the world of Fahrenheit 451. 
+Toyota production plants and Scrum teams exist to build product. The literature speaks of successful application of Kanban in the service industry, analogous to firefighting or hospital emergency rooms. It's tricky to schedule your next fire unless you live in the world of Fahrenheit 451. 
 
 Many development teams run in firefighting mode, often with "swooping" from the Product Owner during a Sprint. And getting into a discipline is hard: it's easy to want to be able to react immediately to customer change instead of integrating a request into the business plan, and it feels good to release whenever you see fit. ([link](https://www.scruminc.com/alternative-to-kanban-one-piece/))
 

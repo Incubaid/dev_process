@@ -18,7 +18,6 @@
 - [TestCuisineBuilder.py](../blob/master/tests/tools/cuisine/TestCuisineBuilder.py)
 ```
 
-
 - link to all files in dir in same repo
 
 ```
@@ -26,11 +25,39 @@
 
 ```
 
-- link to dir or file in remote repo
+- link to dir or file in remote account/repo
 
+```
+- [specs](../../../Incubaid/dev_process/blob/master/specs.md)
+```
+
+- link to dir or file in remote repo but in same account
+
+```
+- [specs](../../Incubaid/dev_process/blob/master/specs.md)
+```
+
+- what if other branch
+   - change 'master' to other branch name in url
+
+#### time info
 
 - can put todo & time info in FR (see below metadata section)
    - this metadata will be additional to metadata as specified in specs where we link to
+   
+#### todo tables
+
+they are only used to help estimate how much work a specific feature request is, do not put the specs in there
+
+```
+- [x] Finish my changes *1 [1h]
+- [ ] do something *3 [2h]
+- [ ] review code from X [1h]
+- [ ] unknown work [5h]
+```
+
+- the time mentioned is remaining time so needs to be revisited all the time
+- be aware that task lists are never complete !!! always put a last one e.g. unknown work, the total should be total effort for FR
 
 ### specs
 
@@ -60,6 +87,9 @@
 ```
 (#577)
 ```
+
+- this can be part of any codeblock or spec block in code (e.g. to identify a spec & link to a FR)
+- this can be part of a todo in code
 
 #### use time in specs
 

@@ -1,23 +1,50 @@
+## specifications & time estimates
 
-## feature requests are done in approprate product repo
+### feature requests are done in approprate product repo
 
 - e.g. in jumpscale8 all FR to do with this product
 - FR are linked to a release which is milestone in github terms e.g. 8.1.0 or linked to roadmap if far away
 - FR have links to dir or pages which have the specifications
 
-## specs
+### FR format
+
+#### links
+
+- make sure all files which have specs (mainly in form of code) are linked to FR, can be in comment or in main body
+
+- link to all 1 file in same repo
+
+```
+- [TestCuisineBuilder.py](../blob/master/tests/tools/cuisine/TestCuisineBuilder.py)
+```
+
+
+- link to all files in dir in same repo
+
+```
+- [cuisine_tests](../blob/master/tests/tools/cuisine/)
+
+```
+
+- link to dir or file in remote repo
+
+
+- can put todo & time info in FR (see below metadata section)
+   - this metadata will be additional to metadata as specified in specs where we link to
+
+### specs
 
 - specs should always be put in repo where code is developed
 - specs can be part of code, suggest to use as much as possible code layouts e.g. the class with methods & todo's & specs are part of that method
 - when developing let the specs in, DO NOT remove them, this is good for further checks
 
-## when specific code reviews required
+### when specific code reviews required
 
 - if specific code review is required can put a todo just for that purpose
 
-## metadata in specs
+### metadata in specs
 
-### use priorities
+#### use priorities
 
 ```
 #TODO *1
@@ -28,13 +55,13 @@
 - *2 is soon, < 1-4 weeks (current sprint)
 - *3 is planned in next iteration
 
-### use links to FR in specs
+#### use links to FR in specs
 
 ```
 (#577)
 ```
 
-### use time in specs
+#### use time in specs
 
 - Time format is optional
 - Can be in h or days e.g. 4h or 4d 
@@ -43,7 +70,7 @@
 [4d]
 ```
 
-### complete example:
+#### complete example:
 
 ```
 #TODO *1 do something something [1h] (#577)

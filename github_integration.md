@@ -1,24 +1,23 @@
 ## GitHub Integration
 
-Git/GitHub is a most amazing tool to track changes and can be used in many more ways than people deem possible.
+Git\/GitHub is a most amazing tool to track changes and can be used in many more ways than people deem possible.
 
-We suggest using GitHub for:
-  - Specs
-  - Documentation
-  - Planning work (stories in home repo, see [stories](stories.md))
-  - Tracking of bugs
-  - Tracking of feature requests
-  - And of course all coding work using pull requests as a tool to track changes
-  - Tickets from customers (*)
-- Why
-  - Its important that all change is being tracked and people get visibility on everything which happened and is going to happen
+We suggest using GitHub or similar tools like Gogs for:
 
+* Specs
+* Documentation
+* Planning work \(stories in home repo, see [stories](stories.md)\)
+* Tracking of bugs
+* Tracking of feature requests
+* And of course all coding work using pull requests as a tool to track changes
+* Tickets from customers
+* Its important that all change is being tracked and people get visibility on everything which happened and is going to happen
 
 ### Requirements
 
-- If security is important to you make sure everyone uses 2-factor authentication
-- If possible use clean login names on GitHub, many people use funny names which is nice but makes it hard for people to remember
-  - Our suggested login names are  $first7lettersLastName+$firsLetterFirstname e.g. Kristof De Spiegeleer becomes *despiegk*
+* If security is important to you make sure everyone uses 2-factor authentication
+* If possible use clean login names on GitHub, many people use funny names which is nice but makes it hard for people to remember
+  * Our suggested login names are  $first7lettersLastName+$firsLetterFirstname e.g. Kristof De Spiegeleer becomes _despiegk_
 
 
 ### Terminology Git related
@@ -37,7 +36,7 @@ A collaborator is a person with read and write access to a repository who has be
 
 #### Commit
 
-A commit, or "revision", is an individual change to a file (or set of files). It's like when you save a file, except with Git, every time you save it creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of what changes were made when and by who. Commits usually contain a commit message which is a brief description of what changes were made.
+A commit, or "revision", is an individual change to a file \(or set of files\). It's like when you save a file, except with Git, every time you save it creates a unique ID \(a.k.a. the "SHA" or "hash"\) that allows you to keep record of what changes were made when and by who. Commits usually contain a commit message which is a brief description of what changes were made.
 
 #### Contributor
 
@@ -49,7 +48,7 @@ A diff is the difference in changes between two commits, or saved changes. The d
 
 #### Fetch
 
-Fetching refers to getting the latest changes from an online repository (like GitHub.com) without merging them in. Once these changes are fetched you can compare them to your local branches (the code residing on your local machine).
+Fetching refers to getting the latest changes from an online repository \(like GitHub.com\) without merging them in. Once these changes are fetched you can compare them to your local branches \(the code residing on your local machine\).
 
 #### Fork
 
@@ -59,15 +58,13 @@ A fork is a personal copy of another user's repository that lives on your accoun
 
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
-
 #### Markdown
 
-Markdown is an incredibly simple semantic file format, not too dissimilar from .doc, .rtf and .txt. Markdown makes it easy for even those without a web-publishing background to write prose (including with links, lists, bullets, etc.) and have it displayed like a website. GitHub supports Markdown, and you can learn about the semantics here.
+Markdown is an incredibly simple semantic file format, not too dissimilar from .doc, .rtf and .txt. Markdown makes it easy for even those without a web-publishing background to write prose \(including with links, lists, bullets, etc.\) and have it displayed like a website. GitHub supports Markdown, and you can learn about the semantics here.
 
 #### Merge
 
-Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a Pull Request (which can be thought of as a request to merge), or via the command line. A merge can be done automatically via a Pull Request via the GitHub.com web interface if there are no conflicting changes, or can always be done via the command line. See Merging a pull request.
-
+Merging takes the changes from one branch \(in the same repository or from a fork\), and applies them into another. This often happens as a Pull Request \(which can be thought of as a request to merge\), or via the command line. A merge can be done automatically via a Pull Request via the GitHub.com web interface if there are no conflicting changes, or can always be done via the command line. See Merging a pull request.
 
 An organization holds X repositories
 
@@ -91,25 +88,25 @@ Pushing refers to sending your committed changes to a remote repository such as 
 
 This is the version of something that is hosted on a server, most likely GitHub.com. It can be connected to local clones so that changes can be synced.
 
-
 #### SSH Key
 
 SSH keys are a way to identify yourself to an online server, using an encrypted message. It's as if your computer has its own unique password to another service. GitHub uses SSH keys to securely transfer information from GitHub.com to your computer.
 
 #### Upstream
 
-When talking about a branch or a fork, the primary branch on the original repository is often referred to as the "upstream", since that is the main place that other changes will come in from. The branch/fork you are working on is then called the "downstream".
+When talking about a branch or a fork, the primary branch on the original repository is often referred to as the "upstream", since that is the main place that other changes will come in from. The branch\/fork you are working on is then called the "downstream".
 
 #### Blame
 
 The "blame" feature in Git describes the last modification to each line of a file, which generally displays the revision, author and time. This is helpful, for example, in tracking down when a feature was added, or which commit led to a particular bug.
 
-
-
 ### Github magic comments
+
 We support some 'magic' comment that you can use in issue and help to manage story and tasks.
 
-`!! prio $prio` Set the prioriry of an issue. $prio is checked on first 4 letters, e.g. critical, or crit matches same  
+`!! prio $prio` Set the prioriry of an issue. $prio is checked on first 4 letters, e.g. critical, or crit matches same
+
 `!! p $prio` alias above
 
 `!! move gig-projects/home` move issue to this project, try to keep milestones, labels. if it's a story, move all the tasks related.
+

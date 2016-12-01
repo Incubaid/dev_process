@@ -9,7 +9,7 @@
 
 - Who
     - manager of this organization or this project
-    - all stakeholders who have something to loose or win by stories discussed on this meeting
+    - all stakeholders who have something to lose or win by stories discussed on this meeting
 
 - When
   - anytime when company priorities or deadlines need to be discussed
@@ -102,7 +102,7 @@ Only relevant for product development.
         - can be because of unforeseen delay, can be planning for next release
 
 - Who
-    - Everyone in company who has something to loose or win by delaying or prioritizing stories
+    - Everyone in company who has something to lose or win by delaying or prioritizing stories
 
 - What this is not!!!
     - No discussions about content: FR/BUGS, Requirements, ... all of this needs to be properly prepared

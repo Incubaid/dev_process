@@ -21,7 +21,6 @@
    * [0-Bugs](0-bugs.md)
    * [Planning](planning.md)
    * [Coding Cycle](CodingCycle.md)
-   * [Story Checklist](StoryChecklist.md)
 * [Agile Principles](agileprinciples.md)
    * [80% Rule](agileprinciples/Pareto.md)
    * [Change Is Not Bad](agileprinciples/ChangeIsNotBad.md)

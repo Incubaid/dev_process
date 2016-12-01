@@ -1,4 +1,6 @@
-## GitHub/Gogs Milestones (DRAFT)
+## GitHub/Gogs Milestones
+
+used to plan future.
 
 ### In Product organizations (prodorg)
 

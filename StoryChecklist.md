@@ -1,4 +1,0 @@
-### Story Card Checklist
-
-
- 

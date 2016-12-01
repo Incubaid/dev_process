@@ -4,7 +4,6 @@ In a **product** organization ("prodorg") following repositories can exist:
 
 - **home** repository
 - Source **code** repositories
-- **Documentation** (GitBook) repositories
 - **AYS templates** repositories
 - **Websites** (www) repositories
 

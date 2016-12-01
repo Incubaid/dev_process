@@ -39,6 +39,7 @@ Below each of the "projorg" repositories is discussed.
   - Story, Lead, Ticket, Monitoring, Question or Task
 - DO NOT USE STORIES FOR
     - feature requests or bugs
+- Owned by project owner (sometimes called project manager)
 
 ### Organization repositories
 
@@ -64,6 +65,7 @@ Below each of the "projorg" repositories is discussed.
 - Examples:
   - org_marketing (https://github.com/gig-projects/org_marketing)
   - org_development (https://github.com/gig-projects/org_development)
+- Owned by person who owns the organization e.g. marketing manager
 
 
 ### Environment repositories

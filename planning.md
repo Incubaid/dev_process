@@ -1,4 +1,4 @@
-## Planning
+## Planning (#TODO: *1 document needs review, not ok)
 
 ### Introduction
 
@@ -17,15 +17,15 @@ Planning always happens in an **organization** repository, such as:
 Remember that organization repositories should only be created in GitHub organizations of type "projorg" such as [gig-projects](https://github.com/gig-projects).
 
 Also in case of planning related to product development, the planning should only happen in an organization repository, even while the actual code exists in a **code** repository, which can only exist in GitHub organizations of type "prodorg" such as [jumpscale](https://github.com/jumpscale).
- 
+
 So in other words, for all product development there will always be two repositories:
 
 - One code repository in a "prodorg" organization where the actual **code** exists
 - One organization repository in a "projorg" organization where the **planning** happens
 
 As a consequence you will have two "types" of milestones involved:
-- A **non-time based** milestone in the code repository - here we typically use a release number such as "8.1", with no specific due date
-- A **time based** milestone in the organization repository - here we typically use a name/label such as "critical_path" or "summer" with a specific due date
+- A **non-time based** milestone in the code repository - here we typically use a release number such as "8.1"
+- A **time based** milestone in the organization repository - here we use specific names like ```nov_end```
 
 In what follows we discuss the steps for planning related to product development.
 
@@ -37,12 +37,12 @@ In what follows we discuss the steps for planning related to product development
 - Per group of products there is GitHub organization of type "prodorg", e.g. [jumpscale](https://github.com/jumpscale)
   - Here you will have/create one or more code repositories, e.g. [Jumpscale/jumpscale_core8](https://github.com/Jumpscale/jumpscale_core8)
   - Make sure all your code repositories are well prepared, having the right labels and milestone:
-  
+
   ![](labels.png)
-  
+
   ![](milestones.png)
-   
-  - Use our tools to set the labels, ... 
+
+  - Use our tools to set the labels, ...
 - Make sure all people have access
 
 
@@ -50,15 +50,15 @@ In what follows we discuss the steps for planning related to product development
 
 - In the home repository of the "projorg" organization
   - Update README.md (```$homerepo/Readme.md```)
-    - Link to all documents mentioned below 
+    - Link to all documents mentioned below
   - Create terminology document (```$homerepo/terminology.md```)
-    - Define all relevant terms related to your products 
+    - Define all relevant terms related to your products
   - Create components document (```$homerepo/components.md```)
     - Define the components which make up the products
     - Describe what all these components do
     - Include links to the associated code repositories
   - Create roadmap
-    - See the [Roadmap](roadmap.md) section 
+    - See the [Roadmap](roadmap.md) section
 
 - In org_development or org_research of the "projorg" organization
   - Define roles
@@ -74,16 +74,16 @@ In what follows we discuss the steps for planning related to product development
 
 - Telegram group (optional)
   - Create telegram group with same name as repo prepended with short company name e.g. gig_org_development
-  - Make sure right people have access to it   
+  - Make sure right people have access to it
   - All relevant stakeholders & story card owners
-  
+
 
 #### Step 2: Story card preparation
 
 - Is an ongoing process
 - Stories should only exist in a GitHub organization of type "projorg"
 - Create all story cards relevant for 1 or more milestones
-    - Put the story cards in the right milestones! 
+    - Put the story cards in the right milestones!
 - Choose the story card owners wisely
 - Use Telegram: ```$shortcompanyname_milestone_$name```
 

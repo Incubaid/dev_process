@@ -5,6 +5,16 @@
 - IMPORTANT: PEOPLE NEED TO USE 2FACTOR AUTHENTICATION !!!!
 
 
+### Product
+
+- ```$shortcompanyname_product_$name```, e.g. ```gig_product_jumpscale```
+- Used for
+    - all communication around this product group
+    - calling for product stakeholder meetings (PSM)
+    - calling for product meetings (PM)
+- Who can join
+    - anyone who is interested to understand more about a product group
+
 ### Support
 
 - ```$shortcompanyname_support```, e.g. ```gig_support```
@@ -20,7 +30,6 @@
     - On duty support guys
         - Need to announce their duty ON & OFF event on this group (if less than 10 people active, for larger orgs this will not be practical). This will allow people to see how is online & active.
         - Need to use and actively look at this group
-
 
 ### Organization
 
@@ -56,20 +65,7 @@
     - Communication around such a project
     - Planning, info changes, ...
 - Who is on it
-    - Everyone which is working on this project 
-
-
-### Milestone 
-
-- ```$shortcompanyname_milestone_$name```, e.g. ```gig_milestone_ovc210```
-- Used for
-  - Defining a milestone, and all related communication
-  - Announcing meetings, e.g. stakeholder meeting, story meeting, if change in time, ...
-  - Inform about important information changes, e.g. stories, specs, roadmap, ...
-  - Important bugs people should be aware about
-- Who is on it
-    - Everyone who has something to win or loose with this milestone, internal to our company 
-- THIS IS MAINLY USED FOR PRODUCE RELATED RELEASES
+    - Everyone which is working on this project
 
 
 ### Cockpit
@@ -87,23 +83,3 @@
     - Can request changes
 - Who can use it
     - People with right security clearance, can be partners & internal
-
-
-### Code
-
-- E.g. ```code_jumpscale_go-raml```
-- Normally the name used is the same as the name of the GitHub repo
-- Used for
-    - Discussion around a code repository
-    - Comments can also be given in pull request and such but sometimes a telegram disccusion is more usefull
-- Who is on it
-    - Everyone which is working on this repository 
-
-
-### BAM
-
-- E.g. gig_BAM
-- Is used for communication around the BAM meeting
-- Also used to report blocking issues, so that they can be assessed more quickly so that people do not need to wait for the next BAM meeting to be unblocked
-- Who is on it
-   - People related to Q&A and development

@@ -5,7 +5,6 @@ In a **project** organization ("projorg") following repositories can exist:
 - **home** repository
 - **Project** repositories
 - **Organization** repositories
-- **Environment** repositories
 - **Cockpit** repositories
 
 Below each of the "projorg" repositories is discussed.
@@ -20,18 +19,7 @@ Below each of the "projorg" repositories is discussed.
   - Issues of type Question and Task
     - Used for questions and tasks that are relevant to the whole product organization
     - All other questions ans tasks should be created as issues in the repository the question or task relates too
-  - Question for questions not related to one specific other repoistory
-- Following documents need to be included:
-  - **README.md** (```$homerepo/Readme.md```)
-    - Link to all documents mentioned below 
-  - **terminology.md** document (```$homerepo/terminology.md```)
-    - Defining all relevant terms related to your products 
-  - **components.md** document (```$homerepo/components.md```)
-    - Defining the components which make up the products
-    - Describing what these components do
-    - Links to relevant code repositories
-  - **roadmap.md**
-    - See the [Roadmap](roadmap.md) section 
+  - Question for questions not related to one specific other repository
 - Example:
   - https://github.com/gig-projects/home
 
@@ -39,19 +27,25 @@ Below each of the "projorg" repositories is discussed.
 ### Project repositories
 
 - Always named as ```proj_$customer``` or ```proj_$customer_$projname```
-  - Projects relate to customers
-  - We use this to organize our work related to 1 customer, only useful if customer project is large enough
+  - Projects relate to customers or specific projects (so not linked to a team)
+  - We use this to organize our work related
+      - to 1 customer, only useful if customer project is large enough
+      - to specific projects inside an organization if they are not linked to 1 group of people
   - Do not create specific ```proj_$customer_$projname``` unless if subproject is large enough
 - Milestones
   - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
   - freely chosen per project
 - Types of issues in project repos:
   - Story, Lead, Ticket, Monitoring, Question or Task
-  
+- DO NOT USE STORIES FOR
+    - feature requests or bugs
 
 ### Organization repositories
 
 - Always named as ```org_$name```
+- These are repo's which are specific to a group of people
+    - group of people can be
+        - for development eg. a scrump team: naming convention org_devel_cairo1
 - Suggested standard organization repos:
     - org_development (engineering)
     - org_support (all support requests (tickets) which are not in project repo yet)
@@ -60,7 +54,7 @@ Below each of the "projorg" repositories is discussed.
     - org_marketing
     - org_finance
     - org_legal
-    - org_hr 
+    - org_hr
     - org_quality (all QA related issues, automation code, performance testing, portal testing and automated tests)
 - Milestones
   - Defines a deadline (date) for the projects, there can be multiple, but tasks or stories can only belong to one
@@ -89,7 +83,7 @@ Below each of the "projorg" repositories is discussed.
 - Freely chosen per project
 - Types of issues in environment repos:
   - Monitoring, Question or Task (auto-created)
-  
+
 
 ### Cockpit repositories
 
@@ -105,7 +99,7 @@ Below each of the "projorg" repositories is discussed.
 - Used to deploy an infrastructure from out of GitHub
   - Documents a full IT enveronment
   - Has all required process information embedded in AYS service instances
-  - All changes are strictly controlled by GitHub with pull requests 
+  - All changes are strictly controlled by GitHub with pull requests
 - Is the cockpit environment which runs our management framework, e.g.
     - AYS robot
     - Telegram Chatbot
@@ -113,7 +107,7 @@ Below each of the "projorg" repositories is discussed.
     - Portal
 - Used to manage a G8 environment
 - AYS repositories are inside
-    - There can be more than one AYS repository hosted inside a Cockpit repo 
+    - There can be more than one AYS repository hosted inside a Cockpit repo
         - Hosts the AYS service recipes and AYS service instances which make up the environment to be managed
         - Is a directory which has an empty file .ays inside
 - Milestones

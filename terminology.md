@@ -7,7 +7,7 @@
 - See [Roles](roles.md)
 
 
-### GitHub or other Git management systema
+### GitHub or other Git management system
 
 #### Organizations
 
@@ -32,4 +32,3 @@ https://github.com/Incubaid/dev_process is an example repository.
 Issues are suggested improvements, tasks or questions related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. Each issue contains its own discussion forum, can be labeled and assigned to a user.
 
 Example: https://github.com/Incubaid/dev_process/issues
-

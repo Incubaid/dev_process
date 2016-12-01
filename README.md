@@ -2,7 +2,7 @@
 
 [Incubaid](http://www.incubaid.com) is a Belgian startup incubator with a proven track record of bringing innovative and exciting cloud infrastructure products to market.
 
-The goal of this ebook is to describe a set of conventions on how a development process can work based on agile methodologies. 
+The goal of this ebook is to describe a set of conventions on how a development process can work based on agile methodologies.
 
 These ideas are opinionated but do result out of years trying to create good products and still maintain flexibility.
 
@@ -25,3 +25,15 @@ Please use the issue tracker to ask questions, post feedback, ask for improvemen
 
 - [Online version](https://gig.gitbooks.io/agile/content/) (html)
 - [PDF version](https://www.gitbook.com/download/pdf/book/gig/agile)
+
+
+## To build yourself
+
+- checkout this repository (git)
+- install gitbook: https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
+- go to that repo and do
+
+```
+gitbook install
+gitbook serve
+```

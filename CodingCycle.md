@@ -1,6 +1,6 @@
-## Coding Cycle
+## Coding Cycle  (#TODO: *1 document needs review, not ok)
 
-### Step 1: Story 
+### Step 1: Story
 
 - Story needs to be defined in milestone
 - First requirements done

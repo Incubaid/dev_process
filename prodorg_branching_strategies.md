@@ -3,52 +3,62 @@
 ### Strategy:
 
 ```
-  [master]                            [version]                             [issue]
-   |
-   |
-   |   (start working on new version)
-   |----------------------------------->|
-   |                                    |  (start working on an issue)
-   |                                    |----------------------------------->|
-   |                                    |                                    |
-   |                                    |                                    |
-   |                                    |                                    |
-   |                                    |                                    |
-   |                                    | (feature is tested,                |
-   |                                    |       documented and code reviewed)|
-   |                                    |     (Pull request created)         |
-   |                                    |<-----------------------------------|
-   |                                    |                                    x
-   |                                    |                         (branch gets deleted)
-   |                                    |
-   |                                    |
-   |                                    |
-   |                                    |  (start working on an issue)
-   |                                    |----------------------------------->|
-   |                                    |                                    |
-   |                                    |                                    |
-   |                                    |                                    |
-   |                                    |                                    |
-   |                                    | (feature is tested,                |
-   |                                    |       documented and code reviewed)|
-   |                                    |     (Pull request created)         |
-   |                                    |<-----------------------------------|
-   |                                    |                                    x
-   |                                    |                         (branch gets deleted)
-   |(All release features and bugs      |
-   |   are done. QA sign off on release)|
-   |<-----------------------------------|
-   |  (Tag merge with release)
-   |
-   |
-   |   (start working on new version)
-   |----------------------------------->|
-   |                                    |
-   |                                    |
-   |                                    |
-   |                                    v
-   |
-   v
+  [hotfix]                      [master]                            [version]                             [issue]
+                                   |
+                                   |
+                                   |   (start working on new version)
+                                   |----------------------------------->|
+                                   |                                    |  (start working on an issue)
+                                   |                                    |----------------------------------->|
+                                   |                                    |                                    |
+                                   |                                    |                                    |
+                                   |                                    |                                    |
+                                   |                                    |                                    |
+                                   |                                    | (feature is tested,                |
+                                   |                                    |       documented and code reviewed)|
+                                   |                                    |     (Pull request created)         |
+                                   |                                    |<-----------------------------------|
+                                   |                                    |                                    x
+                                   |                                    |                         (branch gets deleted)
+                                   |                                    |
+                                   |                                    |
+                                   |                                    |
+                                   |                                    |  (start working on an issue)
+                                   |                                    |----------------------------------->|
+                                   |                                    |                                    |
+                                   |                                    |                                    |
+                                   |                                    |                                    |
+                                   |                                    |                                    |
+                                   |                                    | (feature is tested,                |
+                                   |                                    |       documented and code reviewed)|
+                                   |                                    |     (Pull request created)         |
+                                   |                                    |<-----------------------------------|
+                                   |                                    |                                    x
+                                   |                                    |                         (branch gets deleted)
+                                   |(All release features and bugs      |
+                                   |   are done. QA sign off on release)|
+                                   |<-----------------------------------|
+                                   |   (Tag merge with release)
+                                   |
+                                   |
+                                   |   (start working on new version)
+                                   |----------------------------------->|
+                                   |                                    |
+        (bug detected!             |                                    |
+             hotfix required)      |                                    |
+     |<----------------------------|                                    |
+     |                             |                                    |
+     |                             |                                    |
+     |                             |                                    |
+     |                             |                                    |
+     |---------------------------->|                                    |
+     x                             |  (hotfix cherry-picked to version) |
+  (branch gets deleted)            |----------------------------------->|
+                                   |                                    |
+                                   |                                    |
+                                   |                                    v
+                                   |
+                                   v
  ```
 
 

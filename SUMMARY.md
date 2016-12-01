@@ -20,6 +20,7 @@
    * [Telegram](telegram.md)
    * [0-Bugs](0-bugs.md)
    * [Planning](planning.md)
+   * [Branching](branching.md)
    * [Coding Cycle](CodingCycle.md)
 * [Agile Principles](agileprinciples.md)
    * [80% Rule](agileprinciples/Pareto.md)

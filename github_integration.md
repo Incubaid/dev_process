@@ -1,6 +1,6 @@
 ## GitHub Integration
 
-Git\/GitHub is a most amazing tool to track changes and can be used in many more ways than people deem possible.
+Git/GitHub is a most amazing tool to track changes and can be used in many more ways than people deem possible.
 
 We suggest using GitHub or similar tools like Gogs for:
 
@@ -109,4 +109,3 @@ We support some 'magic' comment that you can use in issue and help to manage sto
 `!! p $prio` alias above
 
 `!! move gig-projects/home` move issue to this project, try to keep milestones, labels. if it's a story, move all the tasks related.
-

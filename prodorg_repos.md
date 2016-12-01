@@ -34,6 +34,7 @@ Below each of the prodorg repositories is discussed.
 - Suggest to include following documents:
   - **README.md** (```$homerepo/Readme.md```)
     - Link to all documents mentioned below
+    - Linkts to join related [telegram](telegram.md) groups
     - Is starting point for full account/organization
   - **terminology.md** document (```$homerepo/terminology.md```)
     - Defining all relevant terms related to your products
@@ -66,7 +67,7 @@ DO NOT USE THIS REPO FOR:
 - Types of issues in code repos:
   - Issues of type Bug, Feature and Question
   - DO NOT use stories or tests at this level!
-  - Question: should we allow tasks at this level???
+  - Question: should we allow tasks at this level??? #TODO \*1
 - Bug/feature management
     - All reported issues or feature requests are grouped, it acts like a funnel
 - How to easily make sure bugs and features are linked to a story.

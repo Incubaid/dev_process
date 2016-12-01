@@ -14,10 +14,10 @@ Whatever we describe can be used on github as well as on simular tools like Gogs
 * Groups repositories related to the development of a product
 * Typically code repositories or the home repository
 * Examples:
-  * [https:\/\/github.com\/jumpscale](https://github.com/jumpscale)
-  * [https:\/\/github.com\/openvstorage](https://github.com/openvstorage)
-  * [https:\/\/github.com\/0-complexity](https://github.com/0-complexity)
-  * [https:\/\/github.com\/incubaid](https://github.com/incubaid)
+  * [https://github.com/jumpscale](https://github.com/jumpscale)
+  * [https://github.com/openvstorage](https://github.com/openvstorage)
+  * [https://github.com/0-complexity](https://github.com/0-complexity)
+  * [https://github.com/incubaid](https://github.com/incubaid)
 
 Details in the section about [product organization repositories](prodorg_repos.md)
 
@@ -27,7 +27,7 @@ Details in the section about [product organization repositories](prodorg_repos.m
 * GitHub\/Gogs is an amazing tool to support all kinds of processes, next to just software developement processes
 * There is no code in a project organization
 * Examples:
-  * [https:\/\/github.com\/gig-projects\/](https://github.com/gig-projects/)
+  * [https://github.com/gig-projects/](https://github.com/gig-projects/)
 
 Details in the section about [project organization repositories](projorg_repos.md)
 

@@ -32,3 +32,18 @@ https://github.com/Incubaid/dev_process is an example repository.
 Issues are suggested improvements, tasks or questions related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. Each issue contains its own discussion forum, can be labeled and assigned to a user.
 
 Example: https://github.com/Incubaid/dev_process/issues
+
+#### Product Owner
+
+- a person who owns a product line e.g. Jumpscale
+- a product line is an organization/account on github level e.g. Jumpscale
+- this person owns that account & will make sure all is organized properly
+- see [roles](roles.md) for more info
+
+#### Project Owner
+
+- a person who manages a project
+- a project can be internal or with customers
+- each project has a project repo (see types of repo's)
+- the project owner is responsible for the project repository and will make sure that repo is organized well
+- see [roles](roles.md) for more info

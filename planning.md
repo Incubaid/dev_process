@@ -57,8 +57,6 @@ In what follows we discuss the steps for planning related to product development
     - Define the components which make up the products
     - Describe what all these components do
     - Include links to the associated code repositories
-  - Create roadmap
-    - See the [Roadmap](roadmap.md) section
 
 - In org_development or org_research of the "projorg" organization
   - Define roles

@@ -1,11 +1,13 @@
 
 ## Kanban as a Nice Add-on to Scrum
 
+our methods are mainly using scrum methodologies but we added some Kanban twists to it.
+
 Kanban primarily follows four core principles (info from [link](https://www.scrumalliance.org/community/articles/2014/july/scrum-vs-kanban))
 
 - Visualize work
 	- Create a visual model of work and work flow, so as to observe the flow of work moving through the Kanban system. Making the work visible, along with blockers, bottlenecks, and queues, instantly leads to increased communication and collaboration.
-	
+
 - Limit work in process
 	- Limit how much unfinished work is in process and reduce the time it takes an item to travel through the Kanban system. Problems caused by task switching and the need to constantly reprioritize items can be reduced by limiting WIP.
 
@@ -19,7 +21,7 @@ Kanban primarily follows four core principles (info from [link](https://www.scru
 
 
 | Advantages of Scrum        | Advantages of Kanban           |
-| ------------- |-------------| 
+| ------------- |-------------|
 | Transparency | Flexibility |
 | Improved credibility with clients | Focus on continuous delivery |
 | High product quality | Increased productivity and quality |
@@ -32,8 +34,6 @@ Kanban primarily follows four core principles (info from [link](https://www.scru
 
 Kanban: A Good Fit for Teams that View Work as Firefighting.
 
-Toyota production plants and Scrum teams exist to build product. The literature speaks of successful application of Kanban in the service industry, analogous to firefighting or hospital emergency rooms. It's tricky to schedule your next fire unless you live in the world of Fahrenheit 451. 
+Toyota production plants and Scrum teams exist to build product. The literature speaks of successful application of Kanban in the service industry, analogous to firefighting or hospital emergency rooms. It's tricky to schedule your next fire unless you live in the world of Fahrenheit 451.
 
 Many development teams run in firefighting mode, often with "swooping" from the Product Owner during a Sprint. And getting into a discipline is hard: it's easy to want to be able to react immediately to customer change instead of integrating a request into the business plan, and it feels good to release whenever you see fit. ([link](https://www.scruminc.com/alternative-to-kanban-one-piece/))
-
-

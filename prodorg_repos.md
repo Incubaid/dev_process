@@ -3,7 +3,7 @@
 In a **product** organization ("prodorg") following repositories can exist:
 
 - **home** repository
-- Source **Code** repositories
+- Source **code** repositories
 - **Documentation** (GitBook) repositories
 - **AYS templates** repositories
 - **Websites** (www) repositories
@@ -16,6 +16,8 @@ Below each of the prodorg repositories is discussed.
 - Only one per "prodorg"
 - Always named `home`
 - Is the main repo of a prodorg
+    - Is owned by the product owner.
+    - Product owner needs to make sure its clear he owns this organization/account & is responsible of content
 - It holds
   - Documentation common to the repos in the prodorg
   - Explains the purpose of all other repos in the prodorg

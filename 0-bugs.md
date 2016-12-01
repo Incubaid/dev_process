@@ -7,26 +7,16 @@ Principle how to sort through bugs and keep the process as light as possible.
 **Blog from development team at VMware Israel**
 (small mods to fit in our process)
 
-How many bugs do you manage? 50? 200? 2000?
-
-Maybe you cannot even tell what the exact number is, because it keeps changing.
-
-I know exactly how many bugs we have in our product: zero.
-
-How much time do you spend in bug triage meetings and on bug management (moving them around from version to version)?
-
-I spend half an hour once a month. And I never see the same bug more than once.
-
-Often, we wonder how should we handle bugs when working in scrum/agile?
-
-The answer is 0 bugs policy. It is based on our experience in several of the Scrum teams in VMware Israel.
-
-Other ways we tried failed, with 0 bugs policy it just works.
-
-The following blog is a manifest that describes what is the 0 bugs policy and why it is the only way to go.
-
-The 0 bugs policy is an advanced yet very simple process for handling bugs.
-
+How many bugs do you manage? 50? 200? 2000?  
+Maybe you cannot even tell what the exact number is, because it keeps changing.  
+I know exactly how many bugs we have in our product: zero.  
+How much time do you spend in bug triage meetings and on bug management (moving them around from version to version)?  
+I spend half an hour once a month. And I never see the same bug more than once.  
+Often, we wonder how should we handle bugs when working in scrum/agile?  
+The answer is 0 bugs policy. It is based on our experience in several of the Scrum teams in VMware Israel.  
+Other ways we tried failed, with 0 bugs policy it just works.  
+The following blog is a manifest that describes what is the 0 bugs policy and why it is the only way to go.  
+The 0 bugs policy is an advanced yet very simple process for handling bugs.  
 Whenever you encounter a new bug, you should either fix that bug, or close it as "won't fix" and don't think about it again. That's it. Simple.
 
 Now, let’s talk about why this is the only way to go.

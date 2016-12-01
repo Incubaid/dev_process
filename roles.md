@@ -16,7 +16,7 @@
 - Scrum teams have their own repo: ```org_development_$scrumTeamname```
 - Scrum teams are well defined in ```org_development``` repo
 
-### Project Manager
+### Project Owner
 
 - Responsible for a ```proj_$customer_$proj``` or ```proj_$company_$proj``` repo
 
@@ -25,7 +25,7 @@
   - Make sure the repo is clean
   - Verify / Check all stories as defined in repo (guarantees quality, priorities, communication around it, ...)
   - Work with product owners to make sure you get the features as required.
-  - Organize project meetings (see [Meetings](meetings.md) to be defined #TODO: *2)
+  - Organize project meetings (see [Meetings](meetings.md) to be defined #TODO: \*2)
 
 - There is only one project manager per repo
 

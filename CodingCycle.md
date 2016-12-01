@@ -24,8 +24,8 @@
 
 - Perform a peer review before you commit. The goal is that you go over your diff while explaining to your peer what you changed. It happens very often that you find bugs or shortcomings while you are explaining your work.
 - Include the reference to the task in your commit
-   - Notation format storyname#taskreference
-   - E.g. "Implemented live migration cockpit#10"
+   - Notation format storyname: #taskreference
+   - E.g. "Implemented live migration cockpit: #10"
 
 
 ### Step 5: Test / code reviews

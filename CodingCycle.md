@@ -39,7 +39,7 @@ Important : See [coding style](coding_style.md)
 - disscusion can happen on the pull request to see how to solve best a problem or if someone has a better solution to the problem.
 - restart the cycle from step 3 to step 5 till everyone agree on the code produced.
 
-### Step 6: Validate
+### Step 7: Validate
 
 - The code normally should be tested already by step 4 and 5
 - Now the story is put on validate state

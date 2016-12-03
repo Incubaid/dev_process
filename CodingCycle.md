@@ -34,10 +34,10 @@ Important : See [coding style](coding_style.md)
 - If the project you're working on has a CI enable, make sure that all the test passes and that your branch has not conflict.
 - People won't even start reviewing your code if the tests don't pass or if your branch is out of date.
 
-### Step 5: code reviews
+### Step 6: code reviews
 - You're code will be reviewed by your peer.
 - disscusion can happen on the pull request to see how to solve best a problem or if someone has a better solution to the problem.
-- restat the cycle from step 3 to step 5 till everyone agree on the code produced.
+- restart the cycle from step 3 to step 5 till everyone agree on the code produced.
 
 ### Step 6: Validate
 

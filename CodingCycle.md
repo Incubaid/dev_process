@@ -17,7 +17,7 @@
 
 ### Step 3: Code
 
-Important : See [coding style](coding_style.md)
+Important : See [coding style](CodingStyle.md)
 
 - Only produce code that is related to the bug or FR you're working on.
 - Don't mix two bug fix or feature in your local branch !

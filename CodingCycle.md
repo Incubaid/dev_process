@@ -26,16 +26,16 @@ Important : See [coding style](CodingStyle.md)
 
 ### Step 4: Commit
 
-- Once your code is ready, the test a written and the documentation is good enough, push your local branch to remote and create a pull request. Your pull request should ask to merge your branch to the version branch, never to master. (check [branching strategy](prodorg_branching_strategies.md) for more detail)
+- Once your code is ready, the tests a written and the documentation is good enough, push your local branch to remote and create a pull request. Your pull request should ask to merge your branch to the version branch, never to master. (check [branching strategy](prodorg_branching_strategies.md) for more detail)
 - Include the reference to the issue you're solving in your commit
   - E.g. "Implemented live migration cockpit: #10"
 
 ### Step 5: Auto test perfome by CI
-- If the project you're working on has a CI enable, make sure that all the test passes and that your branch has not conflict.
+- If the project you're working on has a CI enabled, make sure that all the test passes and that your branch doesn't have conflicts.
 - People won't even start reviewing your code if the tests don't pass or if your branch is out of date.
 
 ### Step 6: code reviews
-- You're code will be reviewed by your peer.
+- Your code will be reviewed by your peer.
 - disscusion can happen on the pull request to see how to solve best a problem or if someone has a better solution to the problem.
 - restart the cycle from step 3 to step 5 till everyone agree on the code produced.
 

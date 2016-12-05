@@ -91,8 +91,7 @@ Only relevant for product development.
 
 ### Product Stakeholders Meeting (PSM)
 
-- all from PM applies from here, is specific case
-
+- normally happens over multiple product groups at once (sometimes can be 1)
 - 2 goals:
     - assess how we did and if needed move stories to next milestone (stakeholder meeting)
     - as preparation on next milestone: define which stories need to go in which milestone (stakeholder meeting)
@@ -100,6 +99,7 @@ Only relevant for product development.
 - When
     - decided in PM meeting, if they feel its needed to bring all stakeholders together
         - can be because of unforeseen delay, can be planning for next release
+    - whenever org owner of company believes this is required
 
 - Who
     - Everyone in company who has something to loose or win by delaying or prioritizing stories
@@ -110,10 +110,10 @@ Only relevant for product development.
 - Principles
     - These meetings need to be super efficient.
         - Normally lots of people are on these meetings that is why its super important to keep them dense and short.
-        - Preparation is done by product owner & in PM meetings, THIS NEEDS TO BE DONE WELL.
+        - Preparation is done by product owners & in PM meetings, THIS NEEDS TO BE DONE WELL.
             - Don't call for a PSM if no proper preparation done
     - If story not well prepared, it gets skipped and needs to wait for next PSM.
 
 - Communication
-    - Telegram: ```$company_product_$shortnameOfProductGroup```
+    - Telegram: ```$company_product_stakeholders```
     - There needs to be a PSM per product group, is ok to do more at once

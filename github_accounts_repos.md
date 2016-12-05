@@ -7,7 +7,7 @@ We define 2 types of organizations:
 * Product organizations \("prodorg"\)
 * Project organizations \("projorg"\)
 
-Whatever we describe can be used on github as well as on simular tools like Gogs.
+Whatever we describe can be used on github as well as on similar tools like Gogs.
 
 ### Product organizations
 

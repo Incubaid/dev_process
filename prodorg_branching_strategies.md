@@ -3,62 +3,81 @@
 ### Strategy:
 
 ```
-  [hotfix]                      [master]                            [version]                             [issue]
-                                   |
-                                   |
-                                   |   (start working on new version)
-                                   |----------------------------------->|
-                                   |                                    |  (start working on an issue)
-                                   |                                    |----------------------------------->|
-                                   |                                    |                                    |
-                                   |                                    |                                    |
-                                   |                                    |                                    |
-                                   |                                    |                                    |
-                                   |                                    | (feature is tested,                |
-                                   |                                    |       documented and code reviewed)|
-                                   |                                    |     (Pull request created)         |
-                                   |                                    |<-----------------------------------|
-                                   |                                    |                                    x
-                                   |                                    |                         (branch gets deleted)
-                                   |                                    |
-                                   |                                    |
-                                   |                                    |
-                                   |                                    |  (start working on an issue)
-                                   |                                    |----------------------------------->|
-                                   |                                    |                                    |
-                                   |                                    |                                    |
-                                   |                                    |                                    |
-                                   |                                    |                                    |
-                                   |                                    | (feature is tested,                |
-                                   |                                    |       documented and code reviewed)|
-                                   |                                    |     (Pull request created)         |
-                                   |                                    |<-----------------------------------|
-                                   |                                    |                                    x
-                                   |                                    |                         (branch gets deleted)
-                                   |(All release features and bugs      |
-                                   |   are done. QA sign off on release)|
-                                   |<-----------------------------------|
-                                   |   (Tag merge with release)
-                                   |
-                                   |
-                                   |   (start working on new version)
-                                   |----------------------------------->|
-                                   |                                    |
-        (bug detected!             |                                    |
-             hotfix required)      |                                    |
-     |<----------------------------|                                    |
-     |                             |                                    |
-     |                             |                                    |
-     |                             |                                    |
-     |                             |                                    |
-     |---------------------------->|                                    |
-     x                             |  (hotfix cherry-picked to version) |
-  (branch gets deleted)            |----------------------------------->|
-                                   |                                    |
-                                   |                                    |
-                                   |                                    v
-                                   |
-                                   v
+   [master]                            [version]                             [issue]                              [hotfx]
+     |
+     |
+     |   (start working on new version)
+     |----------------------------------->|
+     |                                    |  (start working on an issue)
+     |                                    |----------------------------------->|
+     |                                    |                                    |
+     |                                    |                                    |
+     |                                    |                                    |
+     |                                    |                                    |
+     |                                    | (feature is tested,                |
+     |                                    |       documented and code reviewed)|
+     |                                    |     (Pull request created)         |
+     |                                    |<-----------------------------------|
+     |                                    |                                    x
+     |                                    |                         (branch gets deleted)
+     |                                    |
+     |                                    |
+     |                                    |
+     |                                    |  (start working on an issue)
+     |                                    |----------------------------------->|
+     |                                    |                                    |
+     |                                    |                                    |
+     |                                    |                                    |
+     |                                    |                                    |
+     |                                    | (feature is tested,                |
+     |                                    |       documented and code reviewed)|
+     |                                    |     (Pull request created)         |
+     |                                    |<-----------------------------------|
+     |                                    |                                    x
+     |                                    |                         (branch gets deleted)
+     |(All release features and bugs      |
+     |   are done. QA sign off on release)|
+     |<-----------------------------------|
+     |   (Tag merge with release)         |
+     |                                    |
+     |                                    |
+     |                                    |
+     |   (start working on new version)   |
+     |---------------------------------------------------->|
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |       (Serious bug is discovered! Must be hotfixed)
+     |                                    |----------------------------------------------------------------------->|
+     |                                    |                |                                                       |
+     |                                    |                |                                                       |
+     |                                    |                |                                                       |
+     |                                    |                |                                                       |
+     |                                    |  (hotfixed. Merge back into version branch. use git describe to tag)   |
+     |                                    |<---------------------------------------------------------------------- |
+     |  (hotfix cherry-picked to master)  |                |
+     |<-----------------------------------|                |
+     |                                    |                |
+     |                                    |                |
+     |                                    |(cherry-pick    |
+     |                                    |        hotfix) |
+     |                                    |--------------->|
+     |                                    v                |
+     |                                                     |
+     |                                                     |
+     |                                                     |
+     |                                                     v
+     |
+     |
+     v
  ```
 
 
@@ -83,5 +102,6 @@
   - **Hotfix branch (name: hotfix__version)**
     - Branches off of version tag
     - Addresses a blocking issue
-    - Cherry-picked into version branches
-    - Merged into master (after review)
+    - `git-describe` will be used to call it v8.1.0-1-gcommithash
+    - tag it
+    - Cherry-pick into all branches that should have this applied to them

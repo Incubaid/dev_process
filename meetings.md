@@ -43,9 +43,11 @@ Only relevant for product development.
 - daily basis
 - max 15 min
 - they go over all open stories (which is normally max 3 per any point in time)
-- Each scrum team member:
+- Each scrum team member should answer:
   - What did I do since last meeting
+  - Did I meet all my estimates and goals
   - What am I planning to work on
+  - Estimates regarding my planned work
   - What is blocking me
   - What is remaining effort from my side for completion of this full story card
 - Communicate using telegram in product group

@@ -12,7 +12,7 @@
     * e.g. gig\_product\_g8os
     * e.g. gig\_product\_js
 
-## Product Management &lt;-&gt; Product Owner
+## Product Management versus Product Owner
 
 * Product Manager
   * is the middleman in the company
@@ -21,13 +21,10 @@
   * uses prod\_ ... repo's in gogs
 * Product Owner
   * Is a technical person who is part of engineering/development organization.
-  * Makes sure that 
+  * Makes sure that
     * roadmaps get implemented
       * milestones are properly set
     * repo's are properly managed
     * quality of the code is ok
-  * uses repo's in github
-  * 
-
-
-
+  * uses coderepo's in github
+ 

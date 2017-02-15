@@ -54,6 +54,11 @@ Only relevant for product development.
   - in ```$company_org_development_$scrumTeamName```
 
 
+### Master Scrum Meeting
+
+- the scrum leads come together to discuss progress & remove blocking items.
+
+
 ### Product Meeting (PM)
 
 Only relevant for product development.
@@ -96,7 +101,7 @@ Only relevant for product development.
 - normally happens over multiple product groups at once (sometimes can be 1)
 - 2 goals:
     - assess how we did and if needed move stories to next milestone (stakeholder meeting)
-    - as preparation on next milestone: define which stories need to go in which milestone (stakeholder meeting)
+    - as preparation on next milestone: agree on which stories need to go in which milestone (stakeholder meeting)
 
 - When
     - decided in PM meeting, if they feel its needed to bring all stakeholders together

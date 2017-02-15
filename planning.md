@@ -1,5 +1,7 @@
 ## Planning (#TODO: *1 document needs review, not ok)
 
+*NOTOK*
+
 ### Introduction
 
 Planning always happens in an **organization** repository, such as:

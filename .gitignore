@@ -66,3 +66,5 @@ target/
 
 _book/
 node_modules/
+book.pdf
+*.pdf

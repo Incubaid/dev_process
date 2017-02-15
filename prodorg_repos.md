@@ -14,15 +14,15 @@ Below each of the prodorg repositories is discussed.
 * Only one per "prodorg"
 * Always named `home`
 * Is the main repo of a prodorg
-  * Is owned by the product owner.
+  * Is owned by the product owner \(is not the product manager\).
   * Product owner needs to make sure its clear he owns this organization/account & is responsible of content
 * It holds
   * Documentation common to the repos in the prodorg
   * Explains the purpose of all other repos in the prodorg
   * Starting point for people to find their way in all other repos in the prodorg
-  * Holds specifications and product requirements document \(PRD\) information common to the repos in the prodorg \(in other words if not linked to 1 specific repo\)
+  * Can hold specifications and product requirements document \(PRD\) information common to the repos in the prodorg \(in other words if not linked to 1 specific repo\)
 * Milestones
-  * Are version numbers if they are relevant over all products in the account/organization
+  * Are version numbers if they are relevant over all products in the account/organization \(if relevant\)
 * Types of issues in the `home` repo:
   * Only issues of type Question \(type\_question\) and Feature Request \(type\_feature\)
     * Used for questions and feature requests that are relevant to the whole product organization

@@ -27,13 +27,21 @@ Please use the issue tracker to ask questions, post feedback, ask for improvemen
 - [PDF version](https://www.gitbook.com/download/pdf/book/gig/agile)
 
 
-## To build yourself
+## To build & edit yourself
 
 - checkout this repository (git)
-- install gitbook: https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
-- go to that repo and do
+- install nodejs: https://nodejs.org/en/download/
+- install gitbook
 
 ```
-gitbook install
+sudo npm install gitbook-cli -g
+```
+
+- go to the downloaded repo and do
+
+```
+sudo gitbook install
 gitbook serve
 ```
+
+- you can also install the editor: https://www.gitbook.com/editor

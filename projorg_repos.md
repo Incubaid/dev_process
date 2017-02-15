@@ -21,7 +21,7 @@ Below each of the "projorg" repositories is discussed.
     * Used for questions and tasks that are relevant to the whole product organization
     * All other questions ans tasks should be created as issues in the repository the question or task relates too
   * Question for questions not related to one specific other repository
-  * Overall 
+  * Overall
 * Example:
   * [https://docs.greenitglobe.com/gig/home](https://docs.greenitglobe.com/gig/home)
 
@@ -97,6 +97,8 @@ Below each of the "projorg" repositories is discussed.
   * Monitoring, Question or Task \(auto-created\)
 * If testing e.g. on an environment and issues are found create ticket\_ issues on this repo.
 * There can be an ays repo inside \(info about the environment, even multiple version of ays repo's\)
+* Types of issues can be of type
+  * Story, Task, Bug, Feature, Question, Monitor or Test, CustomerCase, Issue
 
 * ### Cockpit repositories
 * Always named as `cockpit_$customername_$purpose`
@@ -129,6 +131,3 @@ Below each of the "projorg" repositories is discussed.
   * Defines a deadline for the environment, freely to be chosen
 * Types of issues can be of type
   * Story, Task, Bug, Feature, Question, Monitor or Test, CustomerCase, Issue
-
-
-

@@ -23,9 +23,7 @@ Please use the issue tracker to ask questions, post feedback, ask for improvemen
 
 ## Book
 
-- [Online version](https://gig.gitbooks.io/agile/content/) (html)
-- [PDF version](https://www.gitbook.com/download/pdf/book/gig/agile)
-
+- [PDF version](https://github.com/Incubaid/dev_process/releases)
 
 ## To build & edit yourself
 
@@ -46,7 +44,7 @@ gitbook serve
 
 - you can also install the editor: https://www.gitbook.com/editor
 
-to build the website
+to build the website to html
 
 ```
 gitbook build .

@@ -98,6 +98,7 @@ Below each of the "projorg" repositories is discussed.
 * If testing e.g. on an environment and issues are found create ticket\_ issues on this repo.
 * There can be an ays repo inside \(info about the environment, even multiple version of ays repo's\)
 * Types of issues can be of type
+
   * Story, Task, Bug, Feature, Question, Monitor or Test, CustomerCase, Issue
 
 * ### Cockpit repositories
@@ -113,9 +114,11 @@ Below each of the "projorg" repositories is discussed.
     * `cockpit_gig_moehaha-demo`
 
 * Used to deploy an infrastructure from out of GIT
+
   * Documents a full IT environment
   * Has all required process information embedded in AYS service instances
   * All changes are strictly controlled by GIT with pull requests
+
 * Is the cockpit environment which runs our management framework, e.g.
   * AYS robot
   * Telegram Chatbot
@@ -131,3 +134,16 @@ Below each of the "projorg" repositories is discussed.
   * Defines a deadline for the environment, freely to be chosen
 * Types of issues can be of type
   * Story, Task, Bug, Feature, Question, Monitor or Test, CustomerCase, Issue
+
+### www = websites repositories
+
+* Always named as `www_$name`
+* Contains the code for a website
+* Is simular to a code repo but this case for a website.
+* When code changes website is updated and hosted automatically
+* Types of issues in website repos:
+  * Issues of type Bug, Feature and Question
+* We use tools like caddy/hugo to automatically publish a website
+
+
+

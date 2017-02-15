@@ -45,3 +45,18 @@ gitbook serve
 ```
 
 - you can also install the editor: https://www.gitbook.com/editor
+
+to build the website
+
+```
+gitbook build .
+```
+
+to generate pdf's
+
+install https://calibre-ebook.com/download
+
+```
+export PATH=/Applications/calibre.app/Contents/MacOS:$PATH
+gitbook pdf .
+```

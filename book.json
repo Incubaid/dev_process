@@ -1,6 +1,6 @@
 {
     "gitbook": ">=2.0.0",
-    "plugins": ["edit-link","googledocs","atoc","github","image-captions","mermaid","highlight2","codeblock","include-codeblock","include","zingchart"],
+    "plugins": ["edit-link","googledocs","atoc","github","image-captions","mermaid","highlight2","codeblock","include-codeblock","include","zingchart","ace"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/Incubaid/dev_process/edit/master/",

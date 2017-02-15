@@ -19,7 +19,7 @@ Whatever we describe can be used on github as well as on similar tools like Gogs
   * [https://github.com/0-complexity](https://github.com/0-complexity)
   * [https://github.com/incubaid](https://github.com/incubaid)
 
-Details in the section about [Code Organization repositories](codedorg_repos.md)
+Details in the section about [Code Organization repositories](codeorg_repos.md)
 
 **Are always in Github.**
 

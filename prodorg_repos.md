@@ -1,33 +1,33 @@
 ## Code Organization Repositories
 
-In a **product** organization \("prodorg"\) following repositories can exist:
+In a **product** organization \("codedorg"\) following repositories can exist:
 
 * **home** repository
 * Source **code** repositories
 * **AYS** repositories \(AYS templates, is not same as cockpit repo's\)
 * **Websites** \(www\) repositories \(optional\)
 
-Below each of the prodorg repositories is discussed.
+Below each of the codedorg repositories is discussed.
 
 ### Home repository
 
-* Only one per "prodorg"
+* Only one per "codedorg"
 * Always named `home`
-* Is the main repo of a prodorg
+* Is the main repo of a codedorg
   * Is owned by the product owner \(is not the product manager\).
   * Product owner needs to make sure its clear he owns this organization/account & is responsible of content
 * It holds
-  * Documentation common to the repos in the prodorg
-  * Explains the purpose of all other repos in the prodorg
-  * Starting point for people to find their way in all other repos in the prodorg
-  * Can hold specifications and product requirements document \(PRD\) information common to the repos in the prodorg \(in other words if not linked to 1 specific repo\)
+  * Documentation common to the repos in the codedorg
+  * Explains the purpose of all other repos in the codedorg
+  * Starting point for people to find their way in all other repos in the codedorg
+  * Can hold specifications and product requirements document \(PRD\) information common to the repos in the codedorg \(in other words if not linked to 1 specific repo\)
 * Milestones
   * Are version numbers if they are relevant over all products in the account/organization \(if relevant\)
 * Types of issues in the `home` repo:
   * Only issues of type Question \(type\_question\) and Feature Request \(type\_feature\)
     * Used for questions and feature requests that are relevant to the whole Code Organization
     * All other questions and feature requests should be asked in the repository the question relates too
-* This is the ideal repo to define your roadmap covering multiple product and component repos in the prodorg
+* This is the ideal repo to define your roadmap covering multiple product and component repos in the codedorg
 
 * Suggest to include following documents:
 

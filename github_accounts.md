@@ -4,7 +4,7 @@
 
 We define 2 types of organizations:
 
-- Code Organizations ("prodorg")
+- Code Organizations ("codedorg")
 - Project organizations ("projorg")
 
 

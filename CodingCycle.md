@@ -33,7 +33,7 @@ Important : See [coding style](CodingStyle.md)
 
 ### Step 5: Commit
 
-- Once your code is ready, the **tests are written and the documentation is good enough**, push your local branch to remote and create a pull request. Your pull request should ask to merge your branch to the version branch, never to master. (check [branching strategy](prodorg_branching_strategies.md) for more details)
+- Once your code is ready, the **tests are written and the documentation is good enough**, push your local branch to remote and create a pull request. Your pull request should ask to merge your branch to the version branch, never to master. (check [branching strategy](codedorg_branching_strategies.md) for more details)
 - Include the reference to the issue you're solving in your commit
   - E.g. "Implemented live migration cockpit: #10"
 

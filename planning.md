@@ -16,11 +16,11 @@ Planning always happens in an **organization** repository, such as:
 
 Remember that organization repositories should only be created in GitHub organizations of type "projorg" such as [gig-projects](https://github.com/gig-projects).
 
-Also in case of planning related to product development, the planning should only happen in an organization repository, even while the actual code exists in a **code** repository, which can only exist in GitHub organizations of type "prodorg" such as [jumpscale](https://github.com/jumpscale).
+Also in case of planning related to product development, the planning should only happen in an organization repository, even while the actual code exists in a **code** repository, which can only exist in GitHub organizations of type "codedorg" such as [jumpscale](https://github.com/jumpscale).
 
 So in other words, for all product development there will always be two repositories:
 
-- One code repository in a "prodorg" organization where the actual **code** exists
+- One code repository in a "codedorg" organization where the actual **code** exists
 - One organization repository in a "projorg" organization where the **planning** happens
 
 As a consequence you will have two "types" of milestones involved:
@@ -34,7 +34,7 @@ In what follows we discuss the steps for planning related to product development
 
 - Per company there is a GitHub organization of type "projorg", e.g. [gig-projects](https://github.com/gig-projects)
   - Here you will have an organization repository, e.g. [gig-projects/org_development](https://github.com/gig-projects/org_development)
-- Per group of products there is GitHub organization of type "prodorg", e.g. [jumpscale](https://github.com/jumpscale)
+- Per group of products there is GitHub organization of type "codedorg", e.g. [jumpscale](https://github.com/jumpscale)
   - Here you will have/create one or more code repositories, e.g. [Jumpscale/jumpscale_core8](https://github.com/Jumpscale/jumpscale_core8)
   - Make sure all your code repositories are well prepared, having the right labels and milestone:
 

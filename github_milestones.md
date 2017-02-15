@@ -2,7 +2,7 @@
 
 used to plan future.
 
-### In Code Organizations \(prodorg\)
+### In Code Organizations \(codedorg\)
 
 * Only use version nr's e.g. 8.1.0
   * Used to organize work around a component release !!!
@@ -18,7 +18,7 @@ used to plan future.
 * feature 1.1.2
 * build 1.1.2.333
 
-#### There are maximum 4 milestones per prodorg repo
+#### There are maximum 4 milestones per codedorg repo
 
 * Version number 1 \(nearest to today, major, minor or feature release\)
 * Version number 2 \(next release, major, minor or feature release\)

@@ -23,21 +23,23 @@ Details in the section about [product organization repositories](prodorg_repos.m
 
 **Are always in Github.**
 
-### Project organizations
+### Project/Company organizations
 
 * Groups repositories related to the management of projects, customers or sales
-* GitHub\/Gogs is an amazing tool to support all kinds of processes, next to just software developement processes
+* Gogs is an amazing tool to support all kinds of processes, next to just software developement processes
 * There is no code in a project organization
 * Examples:
   * [https://github.com/gig-projects/](https://github.com/gig-projects/)
 
 Details in the section about [project organization repositories](projorg_repos.md)
 
+**Are always in GOGS**
+
 ### Gogs versus Github
 
 * We suggest you use Github for all product related repositories, especially when you work with opensource software. Github is today by far the leading git management tool for these types of projects.
 
-* We suggest you use Gogs for all project organizations, because these repo's need to be private and security is more important. We have forked a version of Gogs which integrates with itsyou.online, this allows you to have very good security & single sign on.
+* We suggest you use Gogs for all project organizations, because these repo's need to be private and security is more important. We have forked a version of Gogs which integrates with itsyou.online, this allows you to have very good security & single sign on \(IYO\).
 
 
 

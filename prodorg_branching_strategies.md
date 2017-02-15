@@ -1,4 +1,4 @@
-##  Product Organization Branching Strategies
+##  Code Organization Branching Strategies
 
 ### Strategy:
 

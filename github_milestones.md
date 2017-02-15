@@ -2,7 +2,7 @@
 
 used to plan future.
 
-### In Product organizations \(prodorg\)
+### In Code Organizations \(prodorg\)
 
 * Only use version nr's e.g. 8.1.0
   * Used to organize work around a component release !!!

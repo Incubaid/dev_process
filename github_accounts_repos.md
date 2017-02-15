@@ -4,12 +4,12 @@
 
 We define 2 types of organizations:
 
-* Product organizations \("prodorg"\)
+* Code Organizations \("prodorg"\)
 * Project organizations \("projorg"\)
 
 Whatever we describe can be used on github as well as on similar tools like Gogs.
 
-### Product organizations
+### Code Organizations
 
 * Groups repositories related to the development of a product
 * Typically code repositories or the home repository
@@ -19,7 +19,7 @@ Whatever we describe can be used on github as well as on similar tools like Gogs
   * [https://github.com/0-complexity](https://github.com/0-complexity)
   * [https://github.com/incubaid](https://github.com/incubaid)
 
-Details in the section about [product organization repositories](prodorg_repos.md)
+Details in the section about [Code Organization repositories](prodorg_repos.md)
 
 **Are always in Github.**
 

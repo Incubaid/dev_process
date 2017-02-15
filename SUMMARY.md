@@ -6,7 +6,7 @@
 * [The Ideas](Ideas.md)
    * [GitHub Intro](github_integration.md)
    * [GitHub Organizations/Repo's](github_accounts_repos.md)
-     * [Product Organization Repos](prodorg_repos.md)
+     * [Code Organization Repos](prodorg_repos.md)
      * [Project Organization Repos](projorg_repos.md)
    * [GitHub Milestones](github_milestones.md)
    * [Product management](productmgmt.md)

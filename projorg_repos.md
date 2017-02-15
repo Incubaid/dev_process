@@ -18,7 +18,7 @@ Below each of the "projorg" repositories is discussed.
 * Starting point for people to find their way in all other repos in the projorg
 * Types of issues in home repos:
   * Issues of type Question and Task
-    * Used for questions and tasks that are relevant to the whole product organization
+    * Used for questions and tasks that are relevant to the whole Code Organization
     * All other questions ans tasks should be created as issues in the repository the question or task relates too
   * Question for questions not related to one specific other repository
   * Overall
@@ -70,10 +70,10 @@ Below each of the "projorg" repositories is discussed.
 ### Product repositories
 
 * Always named as prod`_$name`
-* REMARK: is not part of product organization repo's, this is the commercial side of the business, belongs to a product manager
+* REMARK: is not part of Code Organization repo's, this is the commercial side of the business, belongs to a product manager
 * Is product management / integration information.
 * e.g.
-  * how does the product relate to the component repo's \(underneath the product organization repo's\)
+  * how does the product relate to the component repo's \(underneath the Code Organization repo's\)
   * naming conventions
   * roadmaps \(customer facing\)
   * integration \(AYS templates\)

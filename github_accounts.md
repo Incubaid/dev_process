@@ -4,11 +4,11 @@
 
 We define 2 types of organizations:
 
-- Product organizations ("prodorg")
+- Code Organizations ("prodorg")
 - Project organizations ("projorg")
 
 
-### Product organizations
+### Code Organizations
 
 - Groups repositories related to the development of a product
 - Typically code repositories or the home repository

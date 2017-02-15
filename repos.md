@@ -2,15 +2,15 @@
 
 Remember that we define two types of organizations:
 
-- Product organizations ("prodorg")
+- Code Organizations ("prodorg")
 - Project organizations ("projorg")
 
 Each of the organization types come with their own typical repositories, as discussed below.
 
 
-### Repositories in product organizations
+### Repositories in Code Organizations
 
-In a product organization ("prodorg") following repositories can exist:
+In a Code Organization ("prodorg") following repositories can exist:
 
 - **home** repository
 - **Code** repositories
@@ -18,7 +18,7 @@ In a product organization ("prodorg") following repositories can exist:
 - **Documentation** (GitBook) repositories
 - **Websites** (www) repositories
 
-Details in the section about [product organization repositories](prodorg_repos.md)
+Details in the section about [Code Organization repositories](prodorg_repos.md)
 
 
 ### Repositories in project organizations

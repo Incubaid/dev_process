@@ -27,34 +27,50 @@ Please use the issue tracker to ask questions, post feedback, ask for improvemen
 
 ## To build & edit yourself
 
-- checkout this repository (git)
-- install nodejs: https://nodejs.org/en/download/
-- install gitbook
+- Checkout this repository (git):
 
-```
-sudo npm install gitbook-cli -g
-```
+  ```
+  git clone git@github.com:Incubaid/dev_process.git
+  ```
 
-- go to the downloaded repo and do
+- Install [Node.js](https://nodejs.org/en/download/):
 
-```
-sudo gitbook install
-gitbook serve
-```
+  ```
+  sudo apt-get update
+  sudo apt-get install nodejs
+  ```
 
-- you can also install the editor: https://www.gitbook.com/editor
+- Install the Node.js package manager:
 
-to build the website to html
+  ```
+  sudo apt-get install npm
+  ```
 
-```
-gitbook build .
-```
+- Install GitBook:
 
-to generate pdf's
+  ```
+  sudo npm install gitbook-cli -g
+  ```
 
-install https://calibre-ebook.com/download
+- Go to the downloaded repository and do:
 
-```
-export PATH=/Applications/calibre.app/Contents/MacOS:$PATH
-gitbook pdf .
-```
+  ```
+  apt-get install nodejs-legacy
+  sudo gitbook install
+  gitbook serve
+  ```
+
+- You can also install the editor: https://www.gitbook.com/editor
+
+- To build the website to html:
+
+  ```
+  gitbook build .
+  ```
+
+- To generate pdf's install https://calibre-ebook.com/download and then:
+
+  ```
+  export PATH=/Applications/calibre.app/Contents/MacOS:$PATH
+  gitbook pdf .
+  ```

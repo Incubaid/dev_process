@@ -2,12 +2,12 @@
 
 In a **project** organization \("projorg"\) following repositories can exist:
 
-* **home** repository
-* **Project** repositories
-* **Organization** repositories
-* **Product** repositories
-* **Cockpit** repositories
-* **Websites** \(www\) repositories \(optional\)
+* **home** repository \(home\)
+* **Project** repositories \(proj\__...\)_
+* **Organization** repositories \(org\_...\)
+* **Product** repositories \(prod\_...\)
+* **Cockpit** repositories \(cockpit\__..._\)
+* **Websites** \(www\) repositories \(optional\) \(www\_...\)
 
 Below each of the "projorg" repositories is discussed.
 

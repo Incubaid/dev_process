@@ -12,8 +12,6 @@
     * e.g. gig\_product\_g8os
     * e.g. gig\_product\_js
 
-
-
 ## Product Management &lt;-&gt; Product Owner
 
 * Product Manager
@@ -29,6 +27,7 @@
     * repo's are properly managed
     * quality of the code is ok
   * uses repo's in github
-* 
+  * 
+
 
 

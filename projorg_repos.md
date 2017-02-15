@@ -1,6 +1,6 @@
 ## Project Organization Repositories
 
-In a **project** organization \("projorg"\) following repositories can exist:
+In a **project/company** organization \("projorg"\) following repositories can exist:
 
 * **home** repository \(home\)
 * **Project** repositories \(proj\__...\)_
@@ -21,8 +21,9 @@ Below each of the "projorg" repositories is discussed.
     * Used for questions and tasks that are relevant to the whole product organization
     * All other questions ans tasks should be created as issues in the repository the question or task relates too
   * Question for questions not related to one specific other repository
+  * Overall 
 * Example:
-  * [https://github.com/gig-projects/home](https://github.com/gig-projects/home)
+  * https://docs.greenitglobe.com/gig/home
 
 ### Project repositories
 
@@ -63,9 +64,8 @@ Below each of the "projorg" repositories is discussed.
 * Types of issues in organization repos:
   * Story, Lead, Ticket, Monitoring, Question or Task
 * Examples:
-  * org\_marketing \([https://github.com/gig-projects/org\_marketing](https://github.com/gig-projects/org_marketing)\)
-  * org\_development \([https://github.com/gig-projects/org\_development](https://github.com/gig-projects/org_development)\)
-* Owned by person who owns the organization e.g. marketing manager
+  * org product mgmt \(https://docs.greenitglobe.com/gig/org\_products\)
+* Owned by person who owns the organization e.g. marketing manager, ...
 
 ### Environment repositories
 
@@ -84,6 +84,7 @@ Below each of the "projorg" repositories is discussed.
 * Freely chosen per project
 * Types of issues in environment repos:
   * Monitoring, Question or Task \(auto-created\)
+* If testing e.g. on an environment and issues are found create ticket\_ issues on this repo.
 
 ### Cockpit repositories
 

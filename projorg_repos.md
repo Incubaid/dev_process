@@ -23,7 +23,7 @@ Below each of the "projorg" repositories is discussed.
   * Question for questions not related to one specific other repository
   * Overall 
 * Example:
-  * https://docs.greenitglobe.com/gig/home
+  * [https://docs.greenitglobe.com/gig/home](https://docs.greenitglobe.com/gig/home)
 
 ### Project repositories
 
@@ -64,8 +64,19 @@ Below each of the "projorg" repositories is discussed.
 * Types of issues in organization repos:
   * Story, Lead, Ticket, Monitoring, Question or Task
 * Examples:
-  * org product mgmt \(https://docs.greenitglobe.com/gig/org\_products\)
+  * org product mgmt \([https://docs.greenitglobe.com/gig/org\\_products\](https://docs.greenitglobe.com/gig/org\_products\)\)
 * Owned by person who owns the organization e.g. marketing manager, ...
+
+### Product repositories
+
+* Always named as prod`_$name`
+* REMARK: is not part of product organization repo's, this is the commercial side of the business, belongs to a product manager
+* Is product management / integration information.
+* e.g.
+  * how does the product relate to the component repo's \(underneath the product organization repo's\)
+  * naming conventions
+  * roadmaps \(customer facing\)
+  * integration \(AYS templates\)
 
 ### Environment repositories
 
@@ -85,7 +96,8 @@ Below each of the "projorg" repositories is discussed.
 * Types of issues in environment repos:
   * Monitoring, Question or Task \(auto-created\)
 * If testing e.g. on an environment and issues are found create ticket\_ issues on this repo.
-
+* There can be an ays repo inside \(info about the environment, even multiple version of ays repo's\)
+* 
 ### Cockpit repositories
 
 * Always named as `cockpit_$customername_$purpose`
@@ -97,16 +109,17 @@ Below each of the "projorg" repositories is discussed.
   * Examples:
     * `cockpit_combell_resell`
     * `cockpit_gig_moehaha-demo`
-* Used to deploy an infrastructure from out of GitHub
-  * Documents a full IT enveronment
+* Used to deploy an infrastructure from out of GIT
+  * Documents a full IT environment
   * Has all required process information embedded in AYS service instances
-  * All changes are strictly controlled by GitHub with pull requests
+  * All changes are strictly controlled by GIT with pull requests
 * Is the cockpit environment which runs our management framework, e.g.
   * AYS robot
   * Telegram Chatbot
   * Rogerthat Chatbot
   * Portal
-* Used to manage a G8 environment
+* Can be used to manage X nr of G8 environment
+  * Can also checkout an env\_... repo and the AYS info is in the env repo \(see above\)
 * AYS repositories are inside
   * There can be more than one AYS repository hosted inside a Cockpit repo
     * Hosts the AYS service recipes and AYS service instances which make up the environment to be managed
@@ -114,7 +127,7 @@ Below each of the "projorg" repositories is discussed.
 * Milestones
   * Defines a deadline for the environment, freely to be chosen
 * Types of issues can be of type
-  * Story, Task, Bug, Feature, Question, Monitor or Test
+  * Story, Task, Bug, Feature, Question, Monitor or Test, CustomerCase, Issue
 
 
 

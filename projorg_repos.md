@@ -97,10 +97,10 @@ Below each of the "projorg" repositories is discussed.
   * Monitoring, Question or Task \(auto-created\)
 * If testing e.g. on an environment and issues are found create ticket\_ issues on this repo.
 * There can be an ays repo inside \(info about the environment, even multiple version of ays repo's\)
-* 
-### Cockpit repositories
 
+* ### Cockpit repositories
 * Always named as `cockpit_$customername_$purpose`
+
   * $customername = the reseller of the operator capacity, or "gig" for internal use
   * $purpose = a short useful name which describes the cockpit function, e.g.:
     * `git` for our internal gitrobot
@@ -109,6 +109,7 @@ Below each of the "projorg" repositories is discussed.
   * Examples:
     * `cockpit_combell_resell`
     * `cockpit_gig_moehaha-demo`
+
 * Used to deploy an infrastructure from out of GIT
   * Documents a full IT environment
   * Has all required process information embedded in AYS service instances

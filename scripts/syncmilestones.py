@@ -24,15 +24,16 @@ def main(organization, fromrepo, destrepos=[]):
     repos = get_repos(organization)
     if fromrepo not in repos:
         print('No "'+fromrepo+'" repository found')
+        return
     repos.remove(fromrepo)
-    
+
     if destrepos:
         for repo in destrepos:
             if repo not in repos:
-                print('No "'+fromrepo+'" repository found')
+                print('No "'+repo+'" repository found')
                 return
         repos = destrepos
-    
+
     from_milestones_list = get_milestones(organization,fromrepo)
     from_milestones = dict()
     for milestone in from_milestones_list:

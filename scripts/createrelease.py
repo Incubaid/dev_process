@@ -6,12 +6,15 @@ import requests
 user = accesstoken = ''
 
 
-def main(organization, repos, version, branch, message, draft, prerelease):
+def main(organization, repos, version, branch, message, messagefile, draft, prerelease):
     url = 'https://api.github.com/repos/{org}/{repo}/releases'
 
     for repo in repos:
-        if not message:
+        if not message and not messagefile:
             message = "release {}".format(version)
+        if messagefile:
+            with open(messagefile, 'r') as ff:
+                message = ff.read()
         if version[0] != 'v':
             version = "v{}".format(version)
 
@@ -47,6 +50,7 @@ if __name__ == '__main__':
     parser.add_argument('-v', help='version of the release')
     parser.add_argument('-b', help='branch on which create the tag')
     parser.add_argument('-m', help='release message')
+    parser.add_argument('-f', help='release message file')
     parser.add_argument('-d', help='create a draft release', default=False, type=str2bool, nargs='?', const=True)
     parser.add_argument('-p', help='create pre-release', default=False, type=str2bool, nargs='?', const=True)
     args = parser.parse_args()
@@ -54,4 +58,4 @@ if __name__ == '__main__':
     user = args.u
     accesstoken = args.t
 
-    main(args.o, args.r, args.v, args.b, args.m, args.d, args.p)
+    main(args.o, args.r, args.v, args.b, args.m, args.f, args.d, args.p)

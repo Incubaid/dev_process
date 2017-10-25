@@ -56,3 +56,4 @@
 | question | needs input | all |
 | verification | testing, verification with customer | all |
 | closed | nothing to do, 100% done | all |
+| qa_automation | features need to have automation test coverage | all |

@@ -4,7 +4,7 @@ import re
 from js9 import j
 
 def main(token, organization, regex, repo=None):
-    client = j.clients.github.getClient("7473d1236b8f0b73ec82208f21ae4adc9e8d5408")
+    client = j.clients.github.getClient(token)
     organization = client.api.get_organization(organization)
     pattern = re.compile(regex, re.IGNORECASE)
     if repo:

@@ -21,10 +21,14 @@ releaseBranch=$versionTo
 
 echo "---------" $repo "-------------"
 cd $repo
+git checkout development
+git pull
+
 git checkout $masterBranch
 git pull
 
-# create the release branch from the -develop branch
+
+# create the release branch from the -development branch
 # git checkout -b $releaseBranch 
  
 # file in which to update version number

@@ -1,6 +1,3 @@
- This release introduces:
-  - 
+This release introduces/improves on:
 
- It fixes:
-  -
-
+* ZeroBoot setup

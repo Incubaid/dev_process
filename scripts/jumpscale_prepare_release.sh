@@ -10,16 +10,16 @@ versionLabel=v$versionTo
 repo=$3
 
 # establish branch and tag name variables
-masterBranch=master
+masterBranch=9.1.1
 releaseBranch=$versionTo
 
+echo "---------" $repo "-------------"
 cd $repo
-git checkout master
+git checkout $masterBranch
 git pull
-echo $repo
 
 # create the release branch from the -develop branch
-git checkout -b $releaseBranch $masterBranch
+# git checkout -b $releaseBranch 
  
 # file in which to update version number
 setupFile="setup.py"
@@ -33,9 +33,9 @@ sed -i.backup -E "s/version='[0-9.]+'/version\='$versionTo'/" $setupFile $setupF
 rm $setupFile.backup
  
 # commit version number increment
-git commit -am "Incrementing version number to $versionLabel"
+git commit -am "Bump version number to $versionLabel"
 
-git push -u origin $releaseBranch
+# git push -u origin $releaseBranch
  
 # merge release branch with the new version number into master
 git checkout $masterBranch

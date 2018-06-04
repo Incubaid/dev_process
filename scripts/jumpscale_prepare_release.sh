@@ -4,13 +4,19 @@
 branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 
 # v1.0.0, v1.5.2, etc.
+
+echo $1
+echo $2
+echo $3
+echo "---------------------"
+
 versionFrom=$1
 versionTo=$2
 versionLabel=v$versionTo
 repo=$3
 
 # establish branch and tag name variables
-masterBranch=9.1.1
+masterBranch=master
 releaseBranch=$versionTo
 
 echo "---------" $repo "-------------"
